@@ -1,3 +1,4 @@
+ #歴
 all:
 	@echo "Available commands: make init, add, commit, push-master, branch, checkout, push-branch, pull, delete-branch, reflog, reset, log-stat, pretty-log"
 
@@ -13,3 +14,5 @@ push:
 
 git-pretty:
 	git log --pretty=oneline git-pretty: git log --pretty=format:"%h - %an, %ar : %s"
+
+
